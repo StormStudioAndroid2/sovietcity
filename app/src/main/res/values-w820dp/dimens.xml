@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="activity_vertical_menu_margin">16dp</dimen>
+    <dimen name="menu_padding">36dp</dimen>
+    <dimen name="padding_top">60dp</dimen>
+    <dimen name="activity_menu_margin">64dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_card">8dp</dimen>
+    <dimen name="game_menu_margin">96dp</dimen>
+    <dimen name="margin_top">48dp</dimen>
+
+    <dimen name="padding_game_menu">60dp</dimen>
+    <dimen name="name_font">30sp</dimen>
+    <dimen name="text_font">18sp</dimen>
+    <dimen name="text_padding">16dp</dimen>
+    <dimen name="card_recycler_margin">10dp</dimen>
+    <dimen name="image_size">100dp</dimen>
+    <dimen name="btn_text_size">15sp</dimen>
+    <dimen name="name_card">20sp</dimen>
+    <dimen name="price_card">19sp</dimen>
+    <dimen name="name_padding">20dp</dimen>
+    <dimen name="name_toolbar_font">25sp</dimen>
+
+    <dimen name="shooser_name_font">30sp</dimen>
+    <dimen name="btn_padding">10dp</dimen>
+    <dimen name="game_name">50sp</dimen>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+</resources>

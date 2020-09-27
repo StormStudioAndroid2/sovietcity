@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fon1"
+    android:layout_margin="@dimen/activity_menu_margin"
+    android:layout_marginTop="@dimen/margin_top"
+    android:paddingTop="@dimen/padding_top"
+    android:paddingLeft="@dimen/menu_padding"
+    android:paddingRight="@dimen/menu_padding"
+    android:paddingBottom="@dimen/menu_padding">
+    <LinearLayout
+        android:layout_weight="1"
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/name_font"
+        android:gravity="center"
+        android:layout_margin="@dimen/name_padding"
+        android:text="@string/saves"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_margin="@dimen/margin_card"
+        android:id="@+id/save_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"></androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/create_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сохранить игру"
+            android:textSize="@dimen/btn_text_size"
+            android:padding="@dimen/btn_padding"
+            android:layout_marginRight="@dimen/margin_card"
+            android:background="@drawable/btn"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:id="@+id/save_back"
+            android:textSize="@dimen/btn_text_size"
+            android:padding="@dimen/btn_padding"
+            android:background="@drawable/btn"/>
+    </LinearLayout>
+       
+</LinearLayout>

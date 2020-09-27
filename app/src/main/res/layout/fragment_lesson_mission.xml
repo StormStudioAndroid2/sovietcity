@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_menu_margin"
+    android:background="@drawable/fon1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/menu_padding"
+    android:paddingBottom="@dimen/menu_padding"
+    android:paddingRight="@dimen/menu_padding"
+    android:paddingTop="@dimen/padding_top"
+    tools:context="com.sovietcity.View.LessonMissionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_weight="2"
+        android:id="@+id/text_mission"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="@dimen/text_font"
+        android:fadeScrollbars="false"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:layout_weight="5"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mission_next"
+            android:text="@string/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_card"
+            android:background="@drawable/btn"
+            android:padding="@dimen/btn_padding"
+            android:textSize="@dimen/btn_text_size" />
+        <Button
+            android:id="@+id/mission_back"
+            android:text="@string/back"
+            android:background="@drawable/btn"
+            android:layout_margin="@dimen/margin_card"
+            android:padding="@dimen/btn_padding"
+            android:textSize="@dimen/btn_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/complete_btn"
+            android:text="@string/complete_learning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+            android:layout_margin="@dimen/margin_card"
+            android:padding="@dimen/btn_padding"
+            android:textSize="@dimen/btn_text_size" />
+    </LinearLayout>
+</LinearLayout>

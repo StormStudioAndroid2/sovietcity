@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_menu_margin"
+    android:background="@drawable/fon1"
+    android:orientation="vertical"
+    android:padding="@dimen/menu_padding"
+    android:paddingTop="@dimen/padding_top"
+
+    tools:context=".View.StockResourceShooserFragment">
+<TextView
+    android:layout_margin="@dimen/name_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="@dimen/shooser_name_font"
+    android:text="@string/choose_res_stock"
+    />
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            card_view:cardBackgroundColor="@android:color/transparent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_stock"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:fadeScrollbars="false"
+                android:scrollbars="vertical"></androidx.recyclerview.widget.RecyclerView>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:layout_marginTop="@dimen/margin_card"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+
+            card_view:cardBackgroundColor="@android:color/transparent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/mat_choose"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/mat_choose_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="@dimen/text_font" />
+
+                    <TextView
+                        android:id="@+id/mat_choose_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="@dimen/text_font" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="12"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/import_res"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/nav_header_vertical_spacing"
+                android:checked="true"
+                android:text="@string/import_resource"
+                android:textSize="@dimen/btn_text_size"
+                android:theme="@style/MyRadioButton" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/export_res"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/export_resource"
+                android:textSize="@dimen/btn_text_size"
+                android:theme="@style/MyRadioButton" />
+        </RadioGroup>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:background="@drawable/btn"
+                android:padding="@dimen/btn_padding"
+
+                android:id="@+id/choose_res"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/nav_header_vertical_spacing"
+                android:layout_weight="1"
+                android:text="ОК"
+                android:textSize="@dimen/btn_text_size" />
+
+            <Button
+                android:background="@drawable/btn"
+                android:padding="@dimen/btn_padding"
+
+                android:id="@+id/cancel_choose"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ОТМЕНИТЬ"
+                android:textSize="@dimen/btn_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

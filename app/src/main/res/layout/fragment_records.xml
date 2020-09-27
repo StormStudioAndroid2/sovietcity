@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_menu_margin"
+    android:layout_marginTop="@dimen/margin_top"
+    android:background="@drawable/fon1"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/menu_padding"
+    android:paddingRight="@dimen/menu_padding"
+    android:paddingTop="@dimen/padding_top"
+    android:paddingBottom="@dimen/menu_padding"
+    tools:context="com.sovietcity.View.RecordsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/name_padding"
+        android:gravity="center"
+        android:scrollbars="vertical"
+        android:text="@string/records"
+        android:textSize="@dimen/name_font" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/record_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>
+    <LinearLayout
+        android:layout_weight="5"
+
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/record_back"
+            android:textSize="@dimen/btn_text_size"
+            android:background="@drawable/btn"
+            android:padding="@dimen/btn_padding"
+            android:text="@string/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,298 @@
+<resources>
+    <string name="app_name">Город Советов</string>
+    <string name="bar_name" translatable="false"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string-array name="screen_array" translatable="false">
+        <item>Карта</item>
+        <item>Здания</item>
+        <item>Производство</item>
+        <item>Партия</item>
+        <item>Дороги</item>
+
+    </string-array>
+    <string-array name="list_bild" translatable="false">
+        <item>Сталинка</item>
+        <item>Хрущевка</item>
+        <item>Цементный завод</item>
+        <item>Металлургический завод</item>
+        <item>Двухполосная дорога</item>
+    </string-array>
+    <string-array name="build_stalinka" translatable="false">
+        <item>@drawable/stalinkahad</item>
+        <item>@drawable/stalinkahad2</item>
+        <item>@drawable/stalinkahad3</item>
+        <item>@drawable/stalinkahad4</item>
+        <item>@drawable/stalinkabody</item>
+        <item>@drawable/stalinkabody2</item>
+        <item>@drawable/stalinkarotate</item>
+        <item>@drawable/stalinkarotate2</item>
+        <item>@drawable/stalinkarotate3</item>
+        <item>@drawable/stalinkarotate4</item>
+        <item>@drawable/stalinkathree</item>
+        <item>@drawable/stalinkathree2</item>
+        <item>@drawable/stalinkathree3</item>
+        <item>@drawable/stalinkathree4</item>
+        <item>@drawable/stalinkacross</item>
+    </string-array>
+    <string-array name="build_xrushevka" translatable="false">
+        <item>@drawable/xrushevkahad</item>
+        <item>@drawable/xrushevkahad2</item>
+        <item>@drawable/xrushevkahad3</item>
+        <item>@drawable/xrushevkahad4</item>
+        <item>@drawable/xrushevkabody</item>
+        <item>@drawable/xrushevkabody2</item>
+        <item>@drawable/xrushevkarotate</item>
+        <item>@drawable/xrushevkarotate2</item>
+        <item>@drawable/xrushevkarotate3</item>
+        <item>@drawable/xrushevkarotate4</item>
+        <item>@drawable/xrushevkathree</item>
+        <item>@drawable/xrushevkathree2</item>
+        <item>@drawable/xrushevkathree3</item>
+        <item>@drawable/xrushevkathree4</item>
+        <item>@drawable/xrushevkacross</item>
+    </string-array>
+    <string-array name="concrete_build" translatable="false">
+        <item>@drawable/concrete_fab_1</item>
+        <item>@drawable/concrete_fab_2</item>
+        <item>@drawable/concrete_fab_3</item>
+        <item>@drawable/concrete_fab_4</item>
+    </string-array>
+
+    <string-array name="iron_build" translatable="false">
+        <item>@drawable/iron_fab</item>
+        <item>@drawable/iron_fab1</item>
+        <item>@drawable/iron_fab2</item>
+        <item>@drawable/iron_fab3</item>
+        <item>@drawable/iron_fab4</item>
+        <item>@drawable/iron_fab5</item>
+        <item>@drawable/iron_fab6</item>
+        <item>@drawable/iron_fab7</item>
+        <item>@drawable/iron_fab8</item>
+    </string-array>
+    <string-array name="build_road" translatable="false">
+        <item>@drawable/roadhad</item>
+        <item>@drawable/roadhad2</item>
+        <item>@drawable/roadhad3</item>
+        <item>@drawable/roadhad4</item>
+        <item>@drawable/roadbody</item>
+        <item>@drawable/roadbody2</item>
+        <item>@drawable/roadrotate</item>
+        <item>@drawable/roadrotate2</item>
+        <item>@drawable/roadrotate3</item>
+        <item>@drawable/roadrotate4</item>
+        <item>@drawable/roadthree</item>
+        <item>@drawable/roadthree2</item>
+        <item>@drawable/roadthree3</item>
+        <item>@drawable/roadthree4</item>
+        <item>@drawable/roadcross</item>
+    </string-array>
+    <string-array name="build_icp" translatable="false">
+        <item>@drawable/icp_fab1</item>
+        <item>@drawable/icp_fab2</item>
+        <item>@drawable/icp_fab3</item>
+        <item>@drawable/icp_fab4</item>
+    </string-array>
+    <string-array name="build_stock" translatable="false">
+        <item>@drawable/stock_1</item>
+        <item>@drawable/stock_2</item>
+    </string-array>
+    <string-array name="build_meat_plant" translatable="false">
+        <item>@drawable/meat_plant1</item>
+        <item>@drawable/meat_plant2</item>
+        <item>@drawable/meat_plant3</item>
+        <item>@drawable/meat_plant4</item>
+    </string-array>
+    <string-array name="build_mech_bakery" translatable="false">
+        <item>@drawable/mech_bakery_1</item>
+        <item>@drawable/mech_bakery_2</item>
+        <item>@drawable/mech_bakery_3</item>
+        <item>@drawable/mech_bakery_4</item>
+    </string-array>
+    <string-array name="build_town_hall" translatable="false">
+        <item>@drawable/gorkom_1</item>
+        <item>@drawable/gorkom_2</item>
+        <item>@drawable/gorkom_3</item>
+        <item>@drawable/gorkom_4</item>
+        <item>@drawable/gorkom_5</item>
+        <item>@drawable/gorkom_6</item>
+    </string-array>
+    <string-array name="build_shop" translatable="false">
+        <item>@drawable/shop_1</item>
+        <item>@drawable/shop_2</item>
+    </string-array>
+    <string-array name="build_voyluch" translatable="false">
+        <item>@drawable/voyluch_1</item>
+        <item>@drawable/voyluch_2</item>
+        <item>@drawable/voyluch_3</item>
+        <item>@drawable/voyluch_4</item>
+        <item>@drawable/voyluch_5</item>
+        <item>@drawable/voyluch_6</item>
+        <item>@drawable/voyluch_7</item>
+        <item>@drawable/voyluch_8</item>
+
+    </string-array>
+    <string-array name="build_school" translatable="false">
+        <item>@drawable/school_1</item>
+        <item>@drawable/school_2</item>
+        <item>@drawable/school_3</item>
+        <item>@drawable/school_4</item>
+        <item>@drawable/school_5</item>
+        <item>@drawable/school_6</item>
+
+    </string-array>
+    <string-array name="build_hospital" translatable="false">
+        <item>@drawable/hospital_1</item>
+        <item>@drawable/hospital_2</item>
+        <item>@drawable/hospital_3</item>
+    </string-array>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="yes" translatable="false">Стать врагом партии</string>
+    <string name="no" translatable="false">Остаться верным коммунизму</string>
+    <string name="message_text" translatable="false">Выйти из игры?</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="population" translatable="false">Population</string>
+    <string name="map_power" translatable="false">Карта производства</string>
+    <string name="physic_map" translatable="false">Физическая карта</string>
+    <string name="add_chain" translatable="false">Добавить цепочку</string>
+    <string name="date" translatable="false">Дата</string>
+    <string name="money" translatable="false">Деньги</string>
+    <string name="back" translatable="false">Назад</string>
+    <string name="delete" translatable="false">Удалить</string>
+    <string name="menu_pop" translatable="false">МЕНЮ НАСЕЛЕНИЯ</string>
+    <string name="pop_name" translatable="false">Группа населения</string>
+    <string name="pop_quantity" translatable="false">Кол-во людей</string>
+    <string name="group_emo" translatable="false">Благосостояние</string>
+    <string name="child_group_name" translatable="false">Дети</string>
+    <string name="adult_group_name" translatable="false">Взрослые</string>
+    <string name="pensioneer_group_name" translatable="false">Пенсионеры</string>
+    <string name="build_menu" translatable="false">МЕНЮ СТРОИТЕЛЬСТВА</string>
+    <string name="stock_viewr" translatable="false">ОЗОР СКЛАДА</string>
+    <string name="stock_viewer" translatable="false">ОБЗОР СКЛАДА</string>
+    <string name="import_resource" translatable="false">Импортировать ресурс</string>
+    <string name="export_resource" translatable="false">Экспортировать ресурс</string>
+    <string name="choose_res_stock" translatable="false">ВЫБЕРИТЕ РЕСУРС</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="get_money" translatable="false">Получить награду</string>
+    <string name="no_tasks" translatable="false">Заданий нет</string>
+    <string name="complete_task_text" translatable="false">Ура, товарищ! Вы выполнили пятилетку! Получите свою законную награду!</string>
+    <string name="specialties" translatable="false">ОТРАСЛИ</string>
+    <string name="delete_construct" translatable="false">Прекратить стройку</string>
+    <string name="construct_name" translatable="false">Окно строительства</string>
+    <string name="shop_viewer" translatable="false">Окно гастронома</string>
+    <string name="more_data" translatable="false">Подробнее</string>
+    <string name="level_life" translatable="false">Уровень жизни населения</string>
+    <string name="continue_game" translatable="false">Продолжить</string>
+    <string name="save_game" translatable="false">Сохранить и выйти</string>
+    <string name="quit_to_menu" translatable="false">Выйти в главное меню</string>
+    <string-array name="tasks" translatable="false">
+        <item>Здравствуй, товарищ! Вам поручено построить новый город в этой холодной Сибири. Для начала, чтобы начать освоение земель, необходимо увеличить население. Постройте несколько домов и заводов, чтобы людям было где жить и работать. Наберите 500 человек, и у вас будет маленький поселок.</item>
+        <item>Здравствуй, товарищ!Вы отлично справились с первым заданием. Однако людям почти нечего есть. Произведите 180 ед.еды, построив хлебозавод или мясокомбинат. Также увеличьте население до 2000 человек </item>
+        <item>Здравствуйте, тов. Председатель Горкома! Пора вашему городу становиться самостоятельным. Для этого необходимо иметь свой собственный градостроительный комплекс. Постройте его и произведите 40 единиц ЖБИ</item>
+        <item>Вы отлично справляетесь с заданиями! Теперь пора превратить ваш городок в настоящий город. Достигните числа людей в 10 тысяч.</item>
+        <item>Как вы помните, мы живем в эпоху развитого социализма. Но, к сожалению, социальные условия в вашем городе не самые лучшие. Постройте поликлинику и произведите 300 единиц еды</item>
+        <item>Здравствуйте, тов. Председатель Горкома! Следующая информация является совершенно секретной! Уже долгое время не было военных конфликтов, но недавно был организован ввод войск в Афганистан для братской помощи и установления демократии. Поэтому необходимо произвести 100 единиц металла для производства оружия.</item>
+        <item>Здравствуйте, тов. Председатель Горкома! К сожалению, у вас до сих есть проблема с образлваннием. Постройте школу для детей и произведите 450 единиц еды</item>
+
+    </string-array>
+
+    <string name="title_activity_main_menu" translatable="false">MainMenuActivity</string>
+    <string name="dummy_button" translatable="false">Dummy Button</string>
+    <string name="dummy_content" translatable="false">DUMMY\nCONTENT</string>
+    <string name="new_game" translatable="false">Начать новую игру</string>
+    <string name="load_game" translatable="false">Загрузить игру</string>
+    <string name="credits" translatable="false">Авторы</string>
+    <string name="exit" translatable="false">Выйти из игры</string>
+    <string name="signin_other_error" translatable="false">There was an error during sign in.</string>
+    <string name="message_sign_in" translatable="false">Sign-in to begin.</string>
+    <string name="message_signed_in" translatable="false">Signed in.</string>
+    <string name="saved_games_load_success" translatable="false">Loaded from Saved Games.</string>
+    <string name="saved_games_load_failure" translatable="false">Failed to load from Saved Games.</string>
+    <string name="saved_games_update_success" translatable="false">Saved to Saved Games.</string>
+    <string name="saved_games_update_failure" translatable="false">Failed to save to Saved Games</string>
+    <string name="saved_games_select_failure" translatable="false">Failed to select from Saved Games.</string>
+    <string name="saved_games_select_cancel" translatable="false">No Saved Game selected.</string>
+    <string name="cloud_save_load_success" translatable="false">Loaded from Cloud Save.</string>
+    <string name="cloud_save_load_failure" translatable="false">Failed to load from Cloud Save.</string>
+    <string name="cloud_save_update_success" translatable="false">Saved to Cloud Save.</string>
+    <string name="cloud_save_update_failure" translatable="false">Failed to save to Cloud Save.</string>
+    <string name="cloud_save_migrate_success" translatable="false">Migrated to Saved Games.</string>
+    <string name="cloud_save_migrate_failure" translatable="false">Failed to migrate to Saved Games.</string>
+    <string name="label_game_data" translatable="false">Game Data:</string>
+    <string name="label_metadata" translatable="false">Metadata:</string>
+    <string name="label_cloud_save" translatable="false">Cloud Save Actions:</string>
+    <string name="label_saved_games" translatable="false">Saved Game Actions:</string>
+    <string name="hint_save_data" translatable="false">save data</string>
+    <string name="sign_in_failed" translatable="false">Failed to sign in. Please check your network connection and try again.</string>
+    <string name="app_misconfigured" translatable="false">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
+    <string name="license_failed" translatable="false">License check failed.</string>
+    <string name="unknown_error" translatable="false">Unknown error.</string>
+    <string name="welcome" translatable="false">Добро пожаловать в \'Город Советов!\'</string>
+    <string name="welcome_text" translatable="false">Вы - Владимир Левин, член Партии. Недавно Руководство послало Вас осваивать земли в Сибири. Вам необходимо построить новый советский город, опору нашей страны и партии тут, в суровых условиях и вечной мерзлоте. Служите нам честно и верно, выполняя все пятилетки и укладываясь в срок! Для начала пройдите обучение, изучив основы управления городом</string>
+    <string name="receive_training" translatable="false">Пройти обучение</string>
+    <string name="learn_name" translatable="false">ОБУЧЕНИЕ</string>
+    <string name="start_game" translatable="false">Начать игру</string>
+    <string name="lose_name" translatable="false">Вы проиграли</string>\
+    <string name="lose_text" translatable="false">В связи с невыполнением пятилеток вы отстраняетесь от работы. Вас снимают с должности председателя Городского Комитета. Вами уже заинтересовалось КГБ, и вам придется ответить на пару вопросов...</string>
+    <string name="lose_text_btn" translatable="false">Уйти с должности</string>
+    <string name="win_name" translatable="false">Вы победили!</string>
+    <string name="win_text" translatable="false">На этом заканчивается история о Владимире Левине. В 90-е, когда начался развал страны и лжедемократы захватили власть, он оставил должнось председателя горкома и ушел на покой, оставаясь до конца жизни коммунистом. Основав свою партию, которая боролась за идеалы коммунизма, он был ее главой до 2013 года, когда умер в возрасте 79 лет.</string>
+    <string name="win_text_btn" translatable="false">Завершить игру</string>
+    <string name="education" translatable="false">Обучение</string>
+    <string name="event_name" translatable="false">Тов. Председатель!</string>
+    <string name="window_delivery" translatable="false">Окно машин</string>
+    <string name="buy_auto" translatable="false">Купить автомобиль</string>
+    <string name="list_auto_string" translatable="false">Список всех автомобилей</string>
+    <string name="delivery_list" translatable="false">СПИСОК ГРУЗОВИКОВ</string>
+    <string name="back_to_build_menu" translatable="false">К окну строительства</string>
+    <string name="load_save" translatable="false">Загрузить сохранение</string>
+    <string name="saves" translatable="false">Сохранения</string>
+    <string name="tasks" translatable="false">Пятилетки</string>
+    <string name="next" translatable="false">Далее</string>
+    <string name="complete_learning" translatable="false">Завершить обучение</string>
+    <string name="wiki" translatable="false">Справка</string>
+    <string name="records" translatable="false">Рекорды</string>
+    <string name="name" translatable="false">Имя</string>
+    <string name="mail" translatable="false">e-mail</string>
+    <string name="auto" translatable="false">Авторизация</string>
+    <string-array name="lesson_names" translatable="false">
+        <item>Основы</item>
+        <item>Здания</item>
+        <item>Строительство</item>
+        <item>Пятилетки</item>
+        <item>Отрасли</item>
+        <item>Дороги</item>
+        <item>Население</item>
+    </string-array>
+    <string-array name="lesson_description" translatable="false">
+        <item>Рассказывает об основах управления городом</item>
+        <item>Рассказывает о типах домов и их особенностях</item>
+        <item>Особенности строительства и необходимые условия для постройки здания</item>
+        <item>Рассказ о пятилетках и о том, где их получить</item>
+        <item>Отрасли производства, которые есть в городе</item>
+        <item>Рассказ о том, зачем нужны дороги</item>
+        <item>Основы управления населением</item>
+    </string-array>
+    <string-array name="lesson_texts" translatable="false">
+        <item>Здравствуйте, товарищ! Теперь вы управляете городом. Ваша задача - строить и развивать его, превращая из маленького поселка в самый настоящий мегаполис, строя жилые дома, фабрики, магазины, школы, увеличивая население и выполняя пятилетки.</item>
+        <item>Вы можете строить два типа домов: дома с определенными размером и формой и и дома, у которых игрок сам задает размер. Зажмите долго на здании, чтобы получить более подробную информацию. За строительство нужно заплатить определенную цену, а здания вроде больницы, школы и магазина требуют ежемесячной платы. Жилые дома увеличивают максимальное население, фабрики производят товары, магазины, школы, больницы увеличивают отдельные показатели населения. </item>
+        <item>После выбора клеток, на которых должно быть размещено здание, на них начинается стройка. Чтобы посмотреть ее прогресс, просто щелкните по одной из клеток стройки. Для завершения строительства требуются какие-либо материалы. Чтобы доставить их, присоедините к стройке цепочку производства от нужного здания</item>
+        <item>Пятилетка - это задание на время, которое необходимо выполнить, чтобы не проиграть. Чтобы узнать текущую пятилетку, постройте у себя Горком. Затем щелкните по Горкому, чтобы увидеть Меню Задания</item>
+        <item>Вы управляете разными отраслями производства. Все здания, кроме жилых и горкома отнесены к какой-либо отрасли. На них могут устроиться работать люди только из прикрепленной отрасли</item>
+        <item>Для того, чтобы перемещать товар с завода/склада на завод/склад, вы должны связать здания дорогами. Вы можете делать перпендикулярные ответвления, тогда на каждой ветке будет половина изначального количества материала</item>
+        <item>В игре реализованы три группы населения - дети, взрослые и пенсионеры. Население увеличивается рождаемостью и иммиграцией. Рождаемость зависит от количества взрослых и коэффициента рождаемости, а иммиграция - от того, насколько максимально возможное население превышает текущее и сколько рабочих мест есть в городе. После того, как текущее население становится больше или равно максимальному, иммиграция прекращается.</item>
+    </string-array>
+    <string-array name="lesson_mission_texts" translatable="false">
+        <item>Для начала выберите пункт "Здания" в меню справа и выберите "Хрущевку". Затем в конструкторе зданий поставьте столько блоков здания и этажей, сколько считаете нужным. Помните, что один блок занимает одну клетку. Затем выберите на игровом поле клетки, которые будет занимать здания. Единственное правило - клетки здания должны соприкасаться друг с другом и не могут быть размещены на других зданиях. В меню во вкладке "Обучение" вы можете ознакомиться с текущим обучающим заданием, а если его выполнили, нажмите "Далее"</item>
+        <item>В игре здания не строятся сразу, кроме дороги. Сначала появляется стройка. Чтобы завершилась стройка, нужна соблюсти два условия: привезти на стройку необходимые ресурсы и подождать некоторое игровое время. Чтобы посмотреть, какие ресурсы нужны, долго зажмите на клетку со стройкой и пролистайте вниз верхний список. Затем нажмите "Обучение" и перейдите к следующему этапу обучения</item>
+        <item>Чтобы материалы успешно доставились на стройку, необходимо протянуть дорогу от здания, которое выпускает нужный ресурс до стройки. Склад может как привозить нужные ресурсы за деньги, так и вывозить ресурсы из города, принося игроку доход. Зайдите в склад, долго зажав на него и выберите ЖБИ. Выберите "импортировать ресурс" и нажмите "ОК". Теперь каждый месяц будет прибывать по 4 единицы "ЖБИ" Затем нажмите в данном окне "Далее"</item>
+        <item>Теперь пора узнать о карте доставок и ресурсов. Нажмите на значок карты на панели сверху. Вам откроется карта доставок. Белые клетки обозначают, что на них ничего нет. Заштрихованные серые- что на них есть постройка, которая не может доставлять и принимать ресурсы. Зеленая с двумя стрелками - что она может как принимать, так и доставлять ресурсы. Синяя со стрелкой - что она может только принимать ресурсы. Оранжевая со стрелкой - что она может только отправлять ресурсы. Для доставок ресурсов необходимы дороги. Однако учтите, что доставка ресурсов тратит время и деньги!</item>
+        <item>Чтобы доставка ресурсов осуществлялась успешно, вам необходимы машины. В меню "машины" вы можете посмотреть количество машин для доставок в городе, а также купить новую машину и посмотреть подробную информацию о них. Ознакомившись с этим меню, нажмите "Далее"</item>
+        <item>Для доставок необходимы дороги. Дороги, как хрущевки и сталинки, строятся произвольной формы. Они должны соединяться с другими дорогами и не стоять на клетках, где уже есть постройки</item>
+        <item>Чтобы не ждать долго, пока здание построится и прибудут все ресурсы, вы можете ускорить время, нажав на кнопку ускорить на верхней панели. Кнопка "Пуск" запускает время на стандартной скорости". А кнопка "Пауза" останавливает время. Когда здание построится, нажмите "Далее"</item>
+        <item>Хоть вы построили здание, но население не будет прибавляться, пока вы не построите место, где можно работать. Постройте завод Цемента. У него есть заданная форма, поэтому у него нет конструктора зданий. Кроме этого он может стоять только на клетке с песком. Протяните к нему также цепочку производства от склада. Старую цепочку производства вы можете убрать двойным щелчком по каждой клетке с элементом цепочки, чтобы она не забирала часть ресурсов. Когда завод построится, нажмите далее.</item>
+        <item>Теперь население будет прибывать. Чтобы посмотреть детальную информацию о населении, нажмите на "Население" в меню сбоку. Вы сможете увидеть счастье каждой группы население и кол-во человек. Затем нажмите "Подробнее", чтобы увидеть состояние отдельных служб города. Нажав на кнопку "Отрасли", вы можете увидеть распределение населения по отраслям. Учтите, что работать могут только взрослые. Ознакомившись с меню, выберите следующий урок</item>
+        <item>Последнее, о чем вам необходимо узнать - это о пятилетках. Пятилетки - это задания время. Вам их нужно выполнить за пять игровых лет, иначе вас ждет конец игры. Узнать текущее задание можно, выбрав "Пятилетки" в меню сбоку. Удачной игры! </item>
+    </string-array>
+</resources>

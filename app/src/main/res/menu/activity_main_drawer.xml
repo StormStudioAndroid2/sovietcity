@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_map" android:icon="@android:drawable/ic_dialog_map"
+            android:title="Карта"
+            />
+        <item android:id="@+id/nav_build" android:icon="@drawable/home_icon"
+            android:title="Постройка зданий" />
+        <item android:id="@+id/nav_population" android:icon="@drawable/ic_adult_group"
+            android:title="Население" />
+
+        <item android:id="@+id/nav_auto" android:icon="@drawable/ic_directions_bus_black_24dp"
+            android:title="Машины"/>
+        <item android:id="@+id/nav_education" android:icon="@drawable/ic_education"
+            android:title="@string/wiki"/>
+        <item android:id="@+id/nav_tasks" android:icon="@drawable/serpmolot"
+            android:title="@string/tasks"/>
+        <item android:id="@+id/nav_lessons" android:icon="@drawable/ic_education"
+            android:title="@string/education"/>
+    </group>
+
+
+</menu>

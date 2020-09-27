@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nav_header_vertical_spacing">4dp</dimen>
+    <dimen name="nav_header_height">80dp</dimen>
+    <dimen name="activity_vertical_menu_margin">16dp</dimen>
+    <dimen name="menu_padding">15dp</dimen>
+    <dimen name="game_menu_margin">24dp</dimen>
+    <dimen name="padding_top">27dp</dimen>
+    <dimen name="padding_game_menu">18dp</dimen>
+    <dimen name="margin_top">8dp</dimen>
+
+    <dimen name="activity_menu_margin">16dp</dimen>
+    <dimen name="fab_margin">8dp</dimen>
+    <dimen name="margin_card">2dp</dimen>
+    <dimen name="name_font">15sp</dimen>
+    <dimen name="name_toolbar_font">12sp</dimen>
+
+    <dimen name="text_font">9sp</dimen>
+    <dimen name="text_padding">4dp</dimen>
+    <dimen name="card_recycler_margin">5dp</dimen>
+    <dimen name="image_size">50dp</dimen>
+    <dimen name="btn_text_size">7sp</dimen>
+    <dimen name="name_card">12sp</dimen>
+    <dimen name="shooser_name_font">13sp</dimen>
+    <dimen name="btn_padding">4dp</dimen>
+    <dimen name="game_name">40sp</dimen>
+    <dimen name="price_card">10sp</dimen>
+    <dimen name="name_padding">7dp</dimen>
+
+</resources>

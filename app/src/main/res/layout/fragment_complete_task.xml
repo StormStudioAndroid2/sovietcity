@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_menu_margin"
+    android:background="@drawable/fon1"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/padding_top"
+    android:layout_marginTop="@dimen/margin_top"
+
+    tools:context="com.sovietcity.View.TaskFragment"
+    android:paddingLeft="@dimen/menu_padding"
+    android:paddingRight="@dimen/menu_padding"
+    android:paddingBottom="@dimen/menu_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="@dimen/name_padding"
+        android:text="ЗАДАНИЕ ПАРТИИ"
+        android:textSize="@dimen/name_font" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+
+        card_view:cardBackgroundColor="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                card_view:srcCompat="@drawable/task_complete" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_task"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/complete_task_text"
+                    android:textSize="@dimen/text_font" />
+
+                <Button
+                    android:id="@+id/get_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn"
+                    android:padding="@dimen/btn_padding"
+
+                    android:text="@string/get_money"
+                    android:textSize="@dimen/btn_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/task_complete_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btn"
+        android:padding="@dimen/btn_padding"
+
+        android:text="@string/back"
+        android:textSize="@dimen/btn_text_size" />
+</LinearLayout>
